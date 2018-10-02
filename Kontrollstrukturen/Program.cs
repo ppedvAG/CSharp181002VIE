@@ -94,6 +94,16 @@ namespace Kontrollstrukturen
             //} 
             #endregion
 
+            // Übung:
+            // Random r = new Random(); // Zufallszahlengenerator
+            // Neue Zahl:
+            // int neue = r.Next(0, 100); // von 0 bis 100
+            
+            // 1) Zufallszahl erstellen
+            // 2) User muss ebenfalls eine Zahl eingeben
+            // 3) Ausgabe, ob die eingegebene Zahl größer oder kleiner ist
+            //  ----> Nur 1 Mal (schleifen kommen noch ;) )
+
             Console.WriteLine("---ENDE---");
             Console.ReadKey();
         }
