@@ -47,6 +47,10 @@ namespace HalloWelt
 
             // STRG + K + S   -> Codebereich umschließen
 
+
+            // Übung:
+            // 2 Zahlen einlesen und die Summe ausgeben
+
             Console.WriteLine("Hallo Welt");
             Console.ReadKey();
         }
