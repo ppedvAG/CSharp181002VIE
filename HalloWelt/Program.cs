@@ -51,7 +51,26 @@ namespace HalloWelt
             // Übung:
             // 2 Zahlen einlesen und die Summe ausgeben
 
-            Console.WriteLine("Hallo Welt");
+            #region Arbeiten mit Zeichenketten
+            //int zahl1 = 5;
+            //int zahl2 = 10;
+            //int ergebnis = zahl1 + zahl2;
+
+            //Console.WriteLine("Die Summe von " + zahl1 + " und " + zahl2 + " ist " + ergebnis);
+
+            //// Alternative 1
+            //// String.Format
+
+            ////string text1 = string.Format("Die Summe von {0} und {1} ist {2}",zahl1,zahl2,ergebnis);
+            ////Console.WriteLine(text1);
+            //Console.WriteLine("Die Summe von {0} und {1} ist {2:C2}",zahl1,zahl2,ergebnis);
+
+            //// Alternative 2
+            //// String Interpolation
+
+            //Console.WriteLine($"Die Summe von {zahl1} und {zahl2} ist {zahl1+zahl2}"); 
+            #endregion
+
             Console.ReadKey();
         }
     }
