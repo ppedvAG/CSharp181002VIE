@@ -9,7 +9,7 @@ namespace Kontrollstrukturen
     class Program
     {
 
-        enum Wochentage { Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag,Sonntag};
+        enum Wochentage { Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag };
 
         static void Main(string[] args)
         {
@@ -191,7 +191,58 @@ namespace Kontrollstrukturen
             //// Array.Copy(meineTexte, größer, meineTexte.Length); 
             #endregion
 
+            #region ForEach
 
+            // int[] meineZahlen = { 12, 56, 8, 9, 43, 2, 2, 46, 7, 90, 0, 98765, 32, 2, 5, 67, 9 };
+
+            ////for (int i = 0; i < meineZahlen.Length; i++)
+            ////{
+            ////    Console.WriteLine(meineZahlen[i]);
+            ////}
+
+            //foreach (var zahl in meineZahlen)
+            //{
+            //    Console.WriteLine(zahl);
+            //} 
+            #endregion
+
+            // Übung:
+            // Lottozahlengenerator
+            // Array erstellen für 6 int-zahlen
+            // in einer schleife 6 mal r.Next(1,45) aufrufen und das array füllen
+            // am ende: alle zahlen schön in der Konsole ausgeben
+            // "Ihre Lottozahlen: 5,7,3,2,6,45" ....
+
+            // Bonus: Überprüfen, dass keine Zahl doppelt vorkommt
+            // meineZahlen.Contains(12); <--- Überprüft, ob die zahl 12 schon vorhanden ist
+
+            #region Übung
+            //Random r = new Random();
+            //int[] lotto = new int[6];
+
+            //for (int i = 0; i < lotto.Length; i++)
+            //{
+            //    //int neueZahl = r.Next(0, 45);
+            //    //if (lotto.Contains(neueZahl) == false)
+            //    //    lotto[i] = neueZahl;
+            //    //else // bereits vorhanden
+            //    //    i--;
+
+            //    int neuezahl = 0;
+            //    do
+            //    {
+            //        neuezahl = r.Next(0, 45);
+            //    } while (lotto.Contains(neuezahl));
+
+            //    lotto[i] = neuezahl;
+            //}
+
+            //Console.Write("Deine Lottozahlen sind:");
+            //foreach (var item in lotto)
+            //{
+            //    Console.Write($"{item},");
+            //} 
+            #endregion
 
 
             Console.WriteLine("---ENDE---");
