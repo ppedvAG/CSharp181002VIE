@@ -98,11 +98,55 @@ namespace Kontrollstrukturen
             // Random r = new Random(); // Zufallszahlengenerator
             // Neue Zahl:
             // int neue = r.Next(0, 100); // von 0 bis 100
-            
+
             // 1) Zufallszahl erstellen
             // 2) User muss ebenfalls eine Zahl eingeben
             // 3) Ausgabe, ob die eingegebene Zahl größer oder kleiner ist
             //  ----> Nur 1 Mal (schleifen kommen noch ;) )
+
+            // ----------------- Schleifen ------------------
+
+            // Zählergesteuerte Schleife
+            //for(startwert ; bedingung ; aktualisierung)
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            // Bedingungsgesteuerte Schleife
+            //string eingabe = "";
+
+            //while(eingabe != "q") // Kopfgesteuert
+            //{
+            //    Console.WriteLine("Bitte geben Sie etwas ein: ");
+            //    eingabe = Console.ReadLine();
+            //    Console.WriteLine($"Ihre Eingabe war: {eingabe}");
+            //}
+
+
+            //do
+            //{
+
+            //} while (eingabe != "q"); // Fußgesteuert
+
+
+            #region Übung - Schleifen
+            //// > "Bitte geben Sie eine Zahl ein"
+            //// > 5
+            //// > -> 1 + 2 + 3 .... 5
+            //// > "Die Summe von 1 bis {eingabe} ist {summe} // bei 5 -> 15
+
+
+            //Console.WriteLine("Bitte geben Sie eine Zahl ein:");
+            //int eingabe = Convert.ToInt32(Console.ReadLine());
+
+            //int summe = 0;
+            //for (int i = 1; i <= eingabe; i++)
+            //{
+            //    summe += i;
+            //}
+            //Console.WriteLine($"Die Summe von 1 bis {eingabe} ist {summe}"); 
+            #endregion
 
             Console.WriteLine("---ENDE---");
             Console.ReadKey();
