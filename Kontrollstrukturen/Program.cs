@@ -148,6 +148,52 @@ namespace Kontrollstrukturen
             //Console.WriteLine($"Die Summe von 1 bis {eingabe} ist {summe}"); 
             #endregion
 
+            #region Tenärer Operator
+            //string text;
+            //int zahl = 1;
+
+            //if (zahl > 0)
+            //    text = "größer als 0";
+            //else
+            //    text = "kleiner als 0";
+
+            ////            (Bedingung) ? true-Fall : false-Fall
+            //string text2 = (zahl > 0) ? "größer" : "kleiner"; 
+            #endregion
+
+            #region Arrays
+            //int[] meineZahlen = new int[5]; // 5 Variablen, durchnummeriert von 0-4
+            //meineZahlen[0] = 5;
+            //meineZahlen[1] = 9;
+            //meineZahlen[2] = 12;
+            //meineZahlen[3] = 77;
+            //meineZahlen[4] = 3;
+
+
+            //Console.WriteLine(meineZahlen[2]);
+
+            //int[,] schachbrett = new int[8, 8];
+            //schachbrett[2, 2] = 22;
+
+            ////object[] datentypen = new object[2];
+            ////datentypen[0] = new int[5];
+            ////datentypen[1] = new string[5];
+
+            ////(datentypen[0] as int[])[1] = 12;
+            ////(datentypen[1] as string[])[1] = "abcde";
+
+            //// Initialisieren
+            //string[] meineTexte = new string[] { "Hallo", "Welt", "!" };
+            //string[] meineTexte2 = { "Hallo", "Welt", "!" };
+
+            //// Vergrößern:
+            //// string[] größer = new string[1000];
+            //// Array.Copy(meineTexte, größer, meineTexte.Length); 
+            #endregion
+
+
+
+
             Console.WriteLine("---ENDE---");
             Console.ReadKey();
         }
