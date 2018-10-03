@@ -8,12 +8,35 @@ namespace OOP
 {
     class Fahrzeug
     {
+        // Konstruktor: Wird aufgerufen, wenn das Objekt erstellt wird
+        // ctor + TAB + TAB
+        //public Fahrzeug()
+        //{
+        //    Kennzeichen = "MUSTERKENNZEICHEN";
+        //    Kilometerstand = 20000;
+        //    Geschwindigkeit = 30;
+        //}
+        //public Fahrzeug(string K)
+        //{
+        //    Kennzeichen = K;
+        //    Kilometerstand = 20000;
+        //    Geschwindigkeit = 30;
+        //}
+
+        public Fahrzeug(string Kennzeichen)
+        {
+            this.Kennzeichen = Kennzeichen;
+        }
+
+        // Destruktor: Wird aufgerufen, wenn das Objekt gelöscht wird
+        ~Fahrzeug()
+        {
+            Console.WriteLine("Ich werde gerade aus dem Speicher gelöscht");
+        }
 
         public string Kennzeichen { get; set; }
         public int Kilometerstand { get; private set; }
-
         private int geschwindigkeit;
-
         public int Geschwindigkeit
         {
             get { return geschwindigkeit; }

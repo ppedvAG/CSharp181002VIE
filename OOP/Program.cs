@@ -67,7 +67,6 @@ namespace OOP
 
             // -> Programm absichern, damit keine Exceptions passieren können
 
-
             #region Person v2
             ////Person p1 = new Person();
             ////p1.vorname = "Tom";
@@ -95,6 +94,16 @@ namespace OOP
             //audi.Fahren(-7);
             //Console.WriteLine(audi.Kilometerstand); 
             #endregion
+
+
+            Fahrzeug opel = new Fahrzeug("abcde");
+            Fahrzeug porsche = new Fahrzeug("Test");
+
+            Console.WriteLine(porsche.Kennzeichen);
+            Console.WriteLine(opel.Kennzeichen);
+
+            porsche = null;
+            //GC.Collect(); 
 
             Console.WriteLine("---ENDE---");
             Console.ReadKey();
