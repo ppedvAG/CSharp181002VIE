@@ -62,6 +62,11 @@ namespace OOP
             //Console.WriteLine(zahl1*2); 
             #endregion
 
+            // Übung:
+            // 1 + 2 + 3 .... N
+
+            // -> Programm absichern, damit keine Exceptions passieren können
+
             Console.WriteLine("---ENDE---");
             Console.ReadKey();
         }
