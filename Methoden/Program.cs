@@ -105,7 +105,7 @@ namespace Methoden
 
         public static void ReadonlyReference(in int zahl) // Übergabe per referenz
         {
-            zahl = 55;
+            //zahl = 55;
         }
 
         public static  int Add(int z1, int z2)
