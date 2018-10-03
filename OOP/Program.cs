@@ -94,16 +94,24 @@ namespace OOP
             //audi.Fahren(-7);
             //Console.WriteLine(audi.Kilometerstand); 
             #endregion
+            #region Destruktor
+            //Fahrzeug opel = new Fahrzeug("abcde");
+            //Fahrzeug porsche = new Fahrzeug("Test");
+
+            //Console.WriteLine(porsche.Kennzeichen);
+            //Console.WriteLine(opel.Kennzeichen);
+
+            //porsche = null;
+            ////GC.Collect();  
+            #endregion
 
 
-            Fahrzeug opel = new Fahrzeug("abcde");
-            Fahrzeug porsche = new Fahrzeug("Test");
+            LKW l1 = new LKW("ABCDE12345");
 
-            Console.WriteLine(porsche.Kennzeichen);
-            Console.WriteLine(opel.Kennzeichen);
-
-            porsche = null;
-            //GC.Collect(); 
+            l1.Geschwindigkeit = 50;
+            l1.Fahren(2);
+            
+            Console.WriteLine(l1.Kilometerstand);
 
             Console.WriteLine("---ENDE---");
             Console.ReadKey();

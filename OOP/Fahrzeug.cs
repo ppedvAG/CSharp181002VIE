@@ -35,7 +35,7 @@ namespace OOP
         }
 
         public string Kennzeichen { get; set; }
-        public int Kilometerstand { get; private set; }
+        public int Kilometerstand { get; protected set; }
         private int geschwindigkeit;
         public int Geschwindigkeit
         {
