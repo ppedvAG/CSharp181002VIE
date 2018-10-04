@@ -65,6 +65,28 @@ namespace OOP
 
         public string Vorname { get; set; }
         public string Nachname { get; set; }
+
+        private string vorname;
+        private string nachname;
+
+        #region Kurzschreibweise für Readonly-Properties
+        //public string GanzerName => vorname + " " + nachname;
+        ////{
+        ////    get
+        ////    {
+        ////        return vorname + " " + nachname;
+        ////    }
+        ////}
+
+        //public int MAximalgeschwindigkeit => 250;
+        ////{
+        ////    get
+        ////    {
+        ////        return 250;
+        ////    }
+        ////} 
+        #endregion
+
     }
 
     // Übung:
