@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System;
 
 namespace Rennspiel
 {
@@ -10,54 +10,47 @@ namespace Rennspiel
     {
         static void Main(string[] args)
         {
+            // Aufgabe:
+            /* 
+             * 3 Motorklassen,(x)
+             * "LangsamerMotor", "NormalerMotor", "SchnellerMotor"
+             * 
+             * 3 Bremsklassen (x)
+             * "AbgenutzteBremsen", "NormaleBremsen", "NeueBremsen"
+             * 
+             * 3 AudioSystemKlassen (x)
+             * "Kasettenrekorder", "CD-Player", "MP3-Player"
+             * 
+             * Programmlogik: (x)
+             * 1 Fahrzeug erstellen
+             * jede Logik 2-3 mal aufrufen und die Werte in der Konsole ausgeben
+             * 
+             * 
+             * 
+             */
 
-        }
-    }
 
+            Fahrzeug f = new Fahrzeug(new SchnellerMotor(),new NormaleBremsen(), new MP3Player());
 
-    interface IMotor
-    {
-        int MaximalGeschwindigkeit { get; } // Hardcoden in der Klasse
-        int Beschleunigen(int aktuelleGeschwindigkeit);
-    }
+            Console.WriteLine($"aktuelle Geschwindigkeit: {f.Geschwindigkeit}");
+            f.Beschleunigen();
+            Console.WriteLine($"aktuelle Geschwindigkeit: {f.Geschwindigkeit}");
+            f.Beschleunigen();
+            Console.WriteLine($"aktuelle Geschwindigkeit: {f.Geschwindigkeit}");
+            f.Beschleunigen();
+            Console.WriteLine($"aktuelle Geschwindigkeit: {f.Geschwindigkeit}");
+            f.Bremsen();
+            f.Bremsen();
+            f.Bremsen();
+            Console.WriteLine($"aktuelle Geschwindigkeit: {f.Geschwindigkeit}");
+            f.Beschleunigen();
+            Console.WriteLine($"aktuelle Geschwindigkeit: {f.Geschwindigkeit}");
+            f.Bremsen();
+            Console.WriteLine("Musik abspielen:");
+            f.MusikAbspielen();
 
-    interface IBremse
-    {
-        int Bremsen(int aktuelleGeschwindigkeit);
-    }
-
-    interface IAudioSystem
-    {
-        void MusikAbspielen();
-    }
-
-    class Fahrzeug
-    {
-        public Fahrzeug(IMotor motor, IBremse bremse, IAudioSystem audioSystem)
-        {
-            this.motor = motor;
-            this.bremse = bremse;
-            this.audioSystem = audioSystem;
-        }
-
-        private IMotor motor;
-        private IBremse bremse;
-        private IAudioSystem audioSystem;
-        public int Geschwindigkeit { get; private set; }
-
-        public void Beschleunigen()
-        {
-            motor.Beschleunigen(Geschwindigkeit);
-        }
-
-        public void Bremsen()
-        {
-            bremse.Bremsen(Geschwindigkeit);
-        }
-
-        public void MusikAbspielen()
-        {
-            audioSystem.MusikAbspielen();
+            Console.WriteLine("---- Ende ----");
+            Console.ReadKey();
         }
     }
 
