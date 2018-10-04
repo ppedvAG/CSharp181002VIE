@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloTaschenrechner", "Hall
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsKlickSpiel", "FormsKlickSpiel\FormsKlickSpiel.csproj", "{696E0943-E1CA-416B-8C95-12D5A95CEE5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloWPF", "HalloWPF\HalloWPF.csproj", "{ED2361DD-EFC6-4FE7-BD96-6E3C7ACB997D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{696E0943-E1CA-416B-8C95-12D5A95CEE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{696E0943-E1CA-416B-8C95-12D5A95CEE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{696E0943-E1CA-416B-8C95-12D5A95CEE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2361DD-EFC6-4FE7-BD96-6E3C7ACB997D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2361DD-EFC6-4FE7-BD96-6E3C7ACB997D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2361DD-EFC6-4FE7-BD96-6E3C7ACB997D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2361DD-EFC6-4FE7-BD96-6E3C7ACB997D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
