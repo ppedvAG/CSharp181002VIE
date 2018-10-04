@@ -49,13 +49,20 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dateiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hilfeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.öffnenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.speichernToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.beendenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonKlickMich
             // 
-            this.buttonKlickMich.Location = new System.Drawing.Point(43, 24);
+            this.buttonKlickMich.Location = new System.Drawing.Point(26, 53);
             this.buttonKlickMich.Name = "buttonKlickMich";
             this.buttonKlickMich.Size = new System.Drawing.Size(162, 65);
             this.buttonKlickMich.TabIndex = 0;
@@ -66,7 +73,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(43, 123);
+            this.checkBox1.Location = new System.Drawing.Point(26, 152);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(98, 21);
             this.checkBox1.TabIndex = 1;
@@ -76,7 +83,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(43, 150);
+            this.checkBox2.Location = new System.Drawing.Point(26, 179);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(98, 21);
             this.checkBox2.TabIndex = 2;
@@ -86,7 +93,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(43, 177);
+            this.checkBox3.Location = new System.Drawing.Point(26, 206);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(98, 21);
             this.checkBox3.TabIndex = 3;
@@ -96,7 +103,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(43, 204);
+            this.checkBox4.Location = new System.Drawing.Point(26, 233);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(98, 21);
             this.checkBox4.TabIndex = 4;
@@ -112,14 +119,14 @@
             "Banane",
             "Kirschen",
             "Pfirsich"});
-            this.comboBox1.Location = new System.Drawing.Point(234, 24);
+            this.comboBox1.Location = new System.Drawing.Point(217, 53);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(156, 24);
             this.comboBox1.TabIndex = 5;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(234, 67);
+            this.dateTimePicker1.Location = new System.Drawing.Point(217, 96);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(247, 22);
             this.dateTimePicker1.TabIndex = 6;
@@ -127,7 +134,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(231, 123);
+            this.label1.Location = new System.Drawing.Point(214, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 17);
             this.label1.TabIndex = 7;
@@ -143,7 +150,7 @@
             "Salzburg",
             "Graz",
             "..."});
-            this.listBox1.Location = new System.Drawing.Point(487, 24);
+            this.listBox1.Location = new System.Drawing.Point(470, 53);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.listBox1.Size = new System.Drawing.Size(120, 132);
@@ -151,7 +158,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(487, 162);
+            this.numericUpDown1.Location = new System.Drawing.Point(470, 191);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
             this.numericUpDown1.TabIndex = 9;
@@ -160,7 +167,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(613, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(596, 53);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(187, 173);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,7 +176,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(234, 174);
+            this.progressBar1.Location = new System.Drawing.Point(217, 203);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(247, 23);
             this.progressBar1.TabIndex = 11;
@@ -178,7 +185,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(43, 267);
+            this.radioButton1.Location = new System.Drawing.Point(26, 296);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(110, 21);
             this.radioButton1.TabIndex = 12;
@@ -189,7 +196,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(43, 294);
+            this.radioButton2.Location = new System.Drawing.Point(26, 323);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(110, 21);
             this.radioButton2.TabIndex = 13;
@@ -200,7 +207,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(43, 321);
+            this.radioButton3.Location = new System.Drawing.Point(26, 350);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(110, 21);
             this.radioButton3.TabIndex = 14;
@@ -211,7 +218,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(43, 348);
+            this.radioButton4.Location = new System.Drawing.Point(26, 377);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(110, 21);
             this.radioButton4.TabIndex = 15;
@@ -221,14 +228,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(306, 120);
+            this.textBox1.Location = new System.Drawing.Point(289, 149);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(175, 22);
             this.textBox1.TabIndex = 16;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(234, 233);
+            this.textBox2.Location = new System.Drawing.Point(217, 262);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(247, 136);
@@ -238,7 +245,7 @@
             // 
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.Location = new System.Drawing.Point(507, 233);
+            this.richTextBox1.Location = new System.Drawing.Point(490, 262);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(153, 136);
             this.richTextBox1.TabIndex = 18;
@@ -246,11 +253,58 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(234, 393);
+            this.webBrowser1.Location = new System.Drawing.Point(217, 422);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(426, 151);
             this.webBrowser1.TabIndex = 19;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dateiToolStripMenuItem,
+            this.hilfeToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 20;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dateiToolStripMenuItem
+            // 
+            this.dateiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.öffnenToolStripMenuItem,
+            this.speichernToolStripMenuItem,
+            this.beendenToolStripMenuItem});
+            this.dateiToolStripMenuItem.Name = "dateiToolStripMenuItem";
+            this.dateiToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.dateiToolStripMenuItem.Text = "Datei";
+            // 
+            // hilfeToolStripMenuItem
+            // 
+            this.hilfeToolStripMenuItem.Name = "hilfeToolStripMenuItem";
+            this.hilfeToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.hilfeToolStripMenuItem.Text = "Hilfe";
+            // 
+            // öffnenToolStripMenuItem
+            // 
+            this.öffnenToolStripMenuItem.Name = "öffnenToolStripMenuItem";
+            this.öffnenToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.öffnenToolStripMenuItem.Text = "Öffnen";
+            // 
+            // speichernToolStripMenuItem
+            // 
+            this.speichernToolStripMenuItem.Name = "speichernToolStripMenuItem";
+            this.speichernToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.speichernToolStripMenuItem.Text = "Speichern";
+            // 
+            // beendenToolStripMenuItem
+            // 
+            this.beendenToolStripMenuItem.Name = "beendenToolStripMenuItem";
+            this.beendenToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.beendenToolStripMenuItem.Text = "Beenden";
+            this.beendenToolStripMenuItem.Click += new System.EventHandler(this.beendenToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -277,10 +331,14 @@
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.buttonKlickMich);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,6 +366,12 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dateiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem öffnenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem speichernToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem beendenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hilfeToolStripMenuItem;
     }
 }
 

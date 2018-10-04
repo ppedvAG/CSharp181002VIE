@@ -23,5 +23,10 @@ namespace HalloForms
 
             webBrowser1.DocumentText = "<html><body><h1>HALLO WELT </h1></body></html>";
         }
+
+        private void beendenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
