@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bankomat", "Bankomat\Bankom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatenUndEvents", "DelegatenUndEvents\DelegatenUndEvents.csproj", "{3AC8D978-F980-493D-8109-AFB6CCA90699}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{DC19CE99-AFEB-4529-B174-CBFE4AF4E98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rennspiel", "Rennspiel\Rennspiel.csproj", "{DCCFD2B5-C314-44FA-858C-CF9591C6E9FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{3AC8D978-F980-493D-8109-AFB6CCA90699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AC8D978-F980-493D-8109-AFB6CCA90699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AC8D978-F980-493D-8109-AFB6CCA90699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC19CE99-AFEB-4529-B174-CBFE4AF4E98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC19CE99-AFEB-4529-B174-CBFE4AF4E98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC19CE99-AFEB-4529-B174-CBFE4AF4E98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC19CE99-AFEB-4529-B174-CBFE4AF4E98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCFD2B5-C314-44FA-858C-CF9591C6E9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCFD2B5-C314-44FA-858C-CF9591C6E9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCFD2B5-C314-44FA-858C-CF9591C6E9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCFD2B5-C314-44FA-858C-CF9591C6E9FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
