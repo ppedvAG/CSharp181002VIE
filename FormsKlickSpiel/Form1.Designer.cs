@@ -65,6 +65,7 @@
             this.buttonKlickMich.Text = "Klick mich !";
             this.buttonKlickMich.UseVisualStyleBackColor = false;
             this.buttonKlickMich.Click += new System.EventHandler(this.buttonKlickMich_Click);
+            this.buttonKlickMich.MouseEnter += new System.EventHandler(this.buttonKlickMich_MouseEnter);
             // 
             // labelNoCheat
             // 
@@ -84,7 +85,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Super tolle Klickspiel für die ganze Familie";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

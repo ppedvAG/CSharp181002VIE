@@ -29,6 +29,10 @@ namespace FormsKlickSpiel
             counter = 0;
             t.Start();
             buttonKlickMich.Enabled = true;
+
+            WindowState = FormWindowState.Maximized;
+            MaximizeBox = false;
+            MinimizeBox = false;
         }
 
         private void TimerAbgelaufen(object sender, EventArgs e)
@@ -36,6 +40,8 @@ namespace FormsKlickSpiel
             MessageBox.Show($"Sie haben {counter} Klicks geschafft !");
             t.Stop();
             buttonKlickMich.Enabled = false;
+            MaximizeBox = true;
+            MinimizeBox = true;
         }
 
         private void buttonKlickMich_Click(object sender, EventArgs e)
@@ -46,6 +52,21 @@ namespace FormsKlickSpiel
 
             buttonKlickMich.Location = new Point(newX, newY);
             counter++;
+            labelNoCheat.Focus();
+
+            int red = r.Next(0, 255);
+            int green = r.Next(0, 255);
+            int blue = r.Next(0, 255);
+            buttonKlickMich.BackColor = Color.FromArgb(red,green,blue);
+        }
+
+        private void buttonKlickMich_MouseEnter(object sender, EventArgs e)
+        {
+            Random r = new Random();
+            int newX = r.Next(0, this.Width - buttonKlickMich.Width);
+            int newY = r.Next(0, this.Height - buttonKlickMich.Height);
+
+            buttonKlickMich.Location = new Point(newX, newY);
             labelNoCheat.Focus();
         }
     }
