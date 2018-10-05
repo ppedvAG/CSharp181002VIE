@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dateisystem", "Dateisystem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatorüberladung", "Operatorüberladung\Operatorüberladung.csproj", "{B689A0E2-0C0E-4864-97EC-3988917173A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeineErsteDLL", "MeineErsteDLL\MeineErsteDLL.csproj", "{D9FE2B13-6DC0-4BD8-9246-C9DBE2A9B15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonsoleDieEineDLLVerwendet", "KonsoleDieEineDLLVerwendet\KonsoleDieEineDLLVerwendet.csproj", "{4BE60DD8-7BF5-428E-BB61-8F6F62B77F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{B689A0E2-0C0E-4864-97EC-3988917173A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B689A0E2-0C0E-4864-97EC-3988917173A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B689A0E2-0C0E-4864-97EC-3988917173A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FE2B13-6DC0-4BD8-9246-C9DBE2A9B15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FE2B13-6DC0-4BD8-9246-C9DBE2A9B15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FE2B13-6DC0-4BD8-9246-C9DBE2A9B15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FE2B13-6DC0-4BD8-9246-C9DBE2A9B15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE60DD8-7BF5-428E-BB61-8F6F62B77F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE60DD8-7BF5-428E-BB61-8F6F62B77F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE60DD8-7BF5-428E-BB61-8F6F62B77F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE60DD8-7BF5-428E-BB61-8F6F62B77F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
