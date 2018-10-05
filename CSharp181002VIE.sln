@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloWPF", "HalloWPF\HalloW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IchBraucheKeineSchleifenMehr", "IchBraucheKeineSchleifenMehr\IchBraucheKeineSchleifenMehr.csproj", "{D0C05918-C40E-4913-95AC-FFA5B4EC1FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dateisystem", "Dateisystem\Dateisystem.csproj", "{EDBE5C95-1DD0-4E6B-B670-3160FB86E188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D0C05918-C40E-4913-95AC-FFA5B4EC1FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0C05918-C40E-4913-95AC-FFA5B4EC1FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0C05918-C40E-4913-95AC-FFA5B4EC1FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBE5C95-1DD0-4E6B-B670-3160FB86E188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBE5C95-1DD0-4E6B-B670-3160FB86E188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBE5C95-1DD0-4E6B-B670-3160FB86E188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBE5C95-1DD0-4E6B-B670-3160FB86E188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
